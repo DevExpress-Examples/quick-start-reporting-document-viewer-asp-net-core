@@ -3,9 +3,9 @@ using DevExpress.XtraReports.UI;
 
 namespace ReportingDocumentViewerExample.Reports
 {
-    public partial class XtraReport
+    public partial class Report1
     {
-        public XtraReport()
+        public Report1()
         {
             InitializeComponent();
         }

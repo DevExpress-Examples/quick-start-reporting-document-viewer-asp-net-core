@@ -4,10 +4,10 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Reports\XtraReport.repx" />
+    <None Remove="Reports\Report1.repx" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Reports\XtraReport.repx" />
+    <EmbeddedResource Include="Reports\Report1.repx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="19.2.3" />
@@ -16,11 +16,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Reports\XtraReport.cs">
-      <DependentUpon>XtraReport.repx</DependentUpon>
+    <Compile Update="Reports\Report1.cs">
+      <DependentUpon>Report1.repx</DependentUpon>
     </Compile>
-    <Compile Update="Reports\XtraReport.Designer.cs">
-      <DependentUpon>XtraReport.repx</DependentUpon>
+    <Compile Update="Reports\Report1.Designer.cs">
+      <DependentUpon>Report1.repx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

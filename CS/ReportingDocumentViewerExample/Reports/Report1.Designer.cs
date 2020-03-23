@@ -10,9 +10,9 @@
 
 namespace ReportingDocumentViewerExample.Reports {
     
-    public partial class XtraReport : DevExpress.XtraReports.UI.XtraReport {
+    public partial class Report1 : DevExpress.XtraReports.UI.XtraReport {
         private void InitializeComponent() {
-            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "ReportingDocumentViewerExample.Reports.XtraReport.repx");
+            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "ReportingDocumentViewerExample.Reports.Report1.repx");
 
             // Controls
             this.TopMargin = reportInitializer.GetControl<DevExpress.XtraReports.UI.TopMarginBand>("TopMargin");
