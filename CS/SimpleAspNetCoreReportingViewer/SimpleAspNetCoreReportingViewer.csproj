@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Reports\TestReport.repx" />
+    <None Remove="TestReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\TestReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.447" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="20.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.76" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Reports\TestReport.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TestReport.Designer.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

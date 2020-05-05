@@ -1,0 +1,7 @@
+﻿@using SimpleAspNetCoreReportingViewer.Reports
+
+<link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+
+<script src="~/js/viewer.part.bundle.js"></script>
+
+@Html.DevExpress().WebDocumentViewer("DocumentViewer").Height("600px").Bind(new TestReport())
