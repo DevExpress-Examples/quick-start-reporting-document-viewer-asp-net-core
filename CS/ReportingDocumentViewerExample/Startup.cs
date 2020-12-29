@@ -35,7 +35,7 @@ namespace ReportingDocumentViewerExample
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // Register reporting services in an application's dependency injection container.
             services.AddDevExpressControls();
@@ -59,6 +59,7 @@ namespace ReportingDocumentViewerExample
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "node_modules")),
