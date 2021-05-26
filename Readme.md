@@ -3,8 +3,6 @@
 * [Index.cshtml](./CS/SimpleAspNetCoreReportingViewer/Views/Home/Index.cshtml)
 * [Startup.cs](./CS/SimpleAspNetCoreReportingViewer/Startup.cs) 
 * [_Layout.cshtml](./CS/SimpleAspNetCoreReportingViewer/Views/Shared/_Layout.cshtml)
-* [_ViewImports.cshtml](./CS/SimpleAspNetCoreReportingViewer/Views/Shared/_ViewImports.cshtml)
-
 <!-- default file list end -->
 
 # How to Add the Document Viewer to an ASP.NET Core Application
