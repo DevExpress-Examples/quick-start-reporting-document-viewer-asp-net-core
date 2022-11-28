@@ -5,23 +5,19 @@ using DevExpress.AspNetCore.Reporting.ReportDesigner.Native.Services;
 using DevExpress.AspNetCore.Reporting.WebDocumentViewer;
 using DevExpress.AspNetCore.Reporting.WebDocumentViewer.Native.Services;
 // ...
-public class CustomWebDocumentViewerController : WebDocumentViewerController
-{
-    public CustomWebDocumentViewerController(IWebDocumentViewerMvcControllerService controllerService) : base(controllerService)
-    {
+public class CustomWebDocumentViewerController : WebDocumentViewerController {
+    public CustomWebDocumentViewerController(IWebDocumentViewerMvcControllerService controllerService) : base(controllerService) {
     }
 }
 
-public class CustomReportDesignerController : ReportDesignerController
-{
-    public CustomReportDesignerController(IReportDesignerMvcControllerService controllerService) : base(controllerService)
-    {
-    }
-}
+//Required for Web Report Designer
+//public class CustomReportDesignerController : ReportDesignerController {
+//    public CustomReportDesignerController(IReportDesignerMvcControllerService controllerService) : base(controllerService) {
+//    }
+//}
 
-public class CustomQueryBuilderController : QueryBuilderController
-{
-    public CustomQueryBuilderController(IQueryBuilderMvcControllerService controllerService) : base(controllerService)
-    {
-    }
-}
+//Required for Web Report Designer and Web Query Builder
+//public class CustomQueryBuilderController : QueryBuilderController {
+//    public CustomQueryBuilderController(IQueryBuilderMvcControllerService controllerService) : base(controllerService) {
+//    }
+//}

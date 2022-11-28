@@ -52,7 +52,7 @@ namespace SimpleAspNetCoreReportingViewer.Reports
             // label1
             // 
             this.label1.AutoWidth = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 26.14F);
+            this.label1.Font = new DevExpress.Drawing.DXFont("Arial", 26.14F);
             this.label1.LocationFloat = new DevExpress.Utils.PointFloat(104.1667F, 23.91666F);
             this.label1.Multiline = true;
             this.label1.Name = "label1";
@@ -67,7 +67,7 @@ namespace SimpleAspNetCoreReportingViewer.Reports
             this.TopMargin,
             this.BottomMargin,
             this.Detail});
-            this.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
             this.Version = "21.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
