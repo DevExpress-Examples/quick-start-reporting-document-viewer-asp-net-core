@@ -7,7 +7,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.447" />
-    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="22.2.2-beta" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="22.2.6" />
     <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.76" />
   </ItemGroup>
 </Project>
