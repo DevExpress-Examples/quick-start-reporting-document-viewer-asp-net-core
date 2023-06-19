@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/227613460/22.2.2%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T845228)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Reporting for ASP.NET Core - How to Add the Document Viewer to an ASP.NET Core Application
 
 This example is a simple ASP.NET Core Application with the [DevExpress Web Document Viewer](https://docs.devexpress.com/XtraReports/401850/web-reporting/web-document-viewer).
